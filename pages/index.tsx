@@ -1,16 +1,32 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl">
-        Starter NextJS TailwindCSS
-      </h1>
+      <div className="flex min-h-screen justify-center items-center bg-slate-400">
+        <div className="flex flex-col rounded-lg bg-white p-12 space-y-4">
+          <h1 className="text-xl">Log In</h1>
+          <div className="flex flex-row justify-between items-center space-x-4">
+            <div className="border grow"></div>
+            <span>OR</span>
+            <div className="border grow"></div>
+          </div>
+          <input
+                type="text"
+                className='border bg-slate-100 rounded-full p-4'
+                placeholder='Username'
+            />
+            <input
+                type="text"
+                className='border bg-slate-100 rounded-full p-4'
+                placeholder='Password'
+            />
+            <button className='bg-green-400 rounded-full p-4 text-white font-bold'>Log In</button>
+          </div>
+      </div>
     </>
   )
 }
