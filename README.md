@@ -1,6 +1,6 @@
 # Login Page
 
-Live Link: (https://login-page-example.vitoal.com)[https://login-page-example.vitoal.com]
+Live Link: [login-page-example.vitoal.com](https://login-page-example.vitoal.com)
 
 ## Getting Started
 Run npm instal to install node_modules
