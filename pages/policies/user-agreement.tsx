@@ -1,6 +1,6 @@
 const UserAgreement = () => {
     return (
-        <div>TODO: Privacy Policy</div>
+        <div>TODO: User Agreement</div>
     )
 }
 
