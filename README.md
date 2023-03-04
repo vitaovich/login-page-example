@@ -99,3 +99,5 @@ chmod u+x setup.sh
 - [Next.js Authentication](https://nextjs.org/docs/authentication)
 
 - [data-callback not firing](https://github.com/google/recaptcha/issues/74)
+
+- [Google Identity](https://developers.google.com/identity/gsi/web/guides/overview)
