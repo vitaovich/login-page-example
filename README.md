@@ -95,3 +95,7 @@ chmod u+x setup.sh
 - [Deploy hybrid Next.js websites on Azure Static Web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-hybrid)
 
 - [Learn to use Bash with the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/azure-cli-learn-bash)
+
+- [Next.js Authentication](https://nextjs.org/docs/authentication)
+
+- [data-callback not firing](https://github.com/google/recaptcha/issues/74)
